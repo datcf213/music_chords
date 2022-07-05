@@ -1,0 +1,6 @@
+### Có 5 layout:
+- Trang chủ
+- Trang tìm kiếm
+- Đăng nhập/đăng kí
+- Đăng bài hát
+- Trang chi tiết bài hát
