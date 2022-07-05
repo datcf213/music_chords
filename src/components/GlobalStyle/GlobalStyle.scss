@@ -3,6 +3,7 @@
 
 :root {
     --primary: #6667ab;
+    --text-color: black;
 }
 
 * {
@@ -20,4 +21,17 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }

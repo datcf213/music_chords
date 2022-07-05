@@ -9,6 +9,8 @@
     height: 100%;
     width: 1200px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -23,33 +25,28 @@
     height: 40px;
     width: 350px;
     border: 1px solid black;
-    margin-top: 10px;
     border-radius: 15px;
     display: flex;
-    position: relative;
-    left: 300px;
+    align-items: center;
+    background-color: rgba(22, 24, 35, 0.06);
 }
 
 .search-input {
     height: 30px;
     width: 295px;
-    border: none;
     margin-left: 10px;
-    margin-top: 5px;
-}
-
-.search-input:focus {
-    outline: none !important;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .search-icon {
     left: 5px;
     width: 30px;
     height: 35px;
-    border: none;
-    background-color: white;
+    background-color: transparent;
     border-left: 1px solid #6667ab;
-    margin-top: 2px;
+    color: #878788;
 }
 
 .search-icon:hover {
@@ -62,12 +59,6 @@
     margin-left: 10px;
 }
 
-.right-icon {
-    position: relative;
-    right: -700px;
-    margin-top: 20px;
-}
-
 .upload-icon,
 .user-icon {
     font-size: 25px;
@@ -76,5 +67,5 @@
 
 .upload-icon:hover,
 .user-icon:hover {
-    color: #6667ab;
+    color: var(--primary);
 }

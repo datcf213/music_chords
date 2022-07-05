@@ -8,7 +8,7 @@ function Footer() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <span>Coppy right @copy Vip_pro_no.1 team.</span>
+                <span>Coppy right @copy Dinovative Intern team.</span>
                 <br />
                 <a href="/" className={cx('border-r')}>
                     Chính sách
