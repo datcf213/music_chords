@@ -7,6 +7,7 @@ import styles from './DefaultLayout.module.scss';
 const cx = className.bind(styles);
 
 function DefaultLayout({ children }) {
+    window.scrollTo(0, 0);
     return (
         <div>
             <Header />

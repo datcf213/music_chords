@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 import styles from './Header.module.scss';
 import { faCircleUser, faCloudArrowUp, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
@@ -12,7 +13,9 @@ function Header() {
             <div className={cx('inner')}>
                 {/* Logo     */}
                 <div className={cx('logo')}>
-                    <img className={cx('header-logo')} src={require('~/images/logo-music.png')} alt=""></img>
+                    <Link to="/">
+                        <img className={cx('header-logo')} src={require('~/images/logo-music.png')} alt=""></img>
+                    </Link>
                 </div>
                 {/* Search */}
                 <div className={cx('search')}>
@@ -24,7 +27,9 @@ function Header() {
                 {/* Login/register */}
                 <div className={cx('right-icon')}>
                     <FontAwesomeIcon className={cx('upload-icon')} icon={faCloudArrowUp} />
-                    <FontAwesomeIcon className={cx('user-icon')} icon={faCircleUser} />
+                    <Link to="/login">
+                        <FontAwesomeIcon className={cx('user-icon')} icon={faCircleUser} />
+                    </Link>
                 </div>
             </div>
         </header>

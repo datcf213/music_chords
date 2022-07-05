@@ -1,4 +1,5 @@
 import className from 'classnames/bind';
+import { Link } from 'react-router-dom';
 
 import styles from './Footer.module.scss';
 
@@ -10,16 +11,16 @@ function Footer() {
             <div className={cx('inner')}>
                 <span>Coppy right @copy Dinovative Intern team.</span>
                 <br />
-                <a href="/" className={cx('border-r')}>
+                <Link to="/" className={cx('border-r')}>
                     Chính sách
-                </a>
-                <a href="/" className={cx('border-r')}>
+                </Link>
+                <Link to="/" className={cx('border-r')}>
                     Quy chế hoạt động
-                </a>
-                <a href="/" className={cx('border-r')}>
+                </Link>
+                <Link to="/" className={cx('border-r')}>
                     Điều khoản và điều kiện
-                </a>
-                <a href="/">Chủ sở hữu</a>
+                </Link>
+                <Link to="/">Chủ sở hữu</Link>
             </div>
         </header>
     );
