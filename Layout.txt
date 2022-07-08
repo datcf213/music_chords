@@ -4,3 +4,4 @@
 - Đăng nhập/đăng kí
 - Đăng bài hát
 - Trang chi tiết bài hát
+- Trang user(quản lí bài hát)

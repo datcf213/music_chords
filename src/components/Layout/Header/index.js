@@ -14,7 +14,7 @@ function Header() {
                 {/* Logo     */}
                 <div className={cx('logo')}>
                     <Link to="/">
-                        <img className={cx('header-logo')} src={require('~/images/logo-music.png')} alt=""></img>
+                        <img className={cx('header-logo')} src={require('~/assets/images/logo-music.png')} alt=""></img>
                     </Link>
                 </div>
                 {/* Search */}
